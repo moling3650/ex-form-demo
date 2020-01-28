@@ -37,7 +37,7 @@ export default {
       // 表单校验细则
       rules: {
         processCode: { required: true, message: '请选择责任工序', trigger: 'change' },
-        disposalProcess: { required: true, message: '请选择归还工序', trigger: 'change' },
+        disposalProcess: { required: false, message: '请选择归还工序', trigger: 'change' },
       },
       // 表单内容监听事件
       events: {
